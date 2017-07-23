@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		71BB9EC5B99B3B91A1A8036C /* Pods_HomeAutomation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFADEBE741A0E4EE05348F9 /* Pods_HomeAutomation.framework */; };
+		DC39218C1E44C9510013CD1C /* AuthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39218B1E44C9510013CD1C /* AuthConfig.swift */; };
 		DC6B50A81E3BBD8E000A3703 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B50A71E3BBD8E000A3703 /* HttpController.swift */; };
 		DC6B50AA1E3BC0E3000A3703 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B50A91E3BC0E3000A3703 /* AuthController.swift */; };
 		DCAE5E8D1E39BDBF008DF6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE5E8C1E39BDBF008DF6BA /* AppDelegate.swift */; };
@@ -34,6 +35,7 @@
 		9AFADEBE741A0E4EE05348F9 /* Pods_HomeAutomation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeAutomation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6932EEF109A7D4BA01BF331 /* Pods-HomeAutomation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeAutomation.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeAutomation/Pods-HomeAutomation.release.xcconfig"; sourceTree = "<group>"; };
 		CB8F5DD2457D82379F268287 /* Pods-HomeAutomation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeAutomation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeAutomation/Pods-HomeAutomation.debug.xcconfig"; sourceTree = "<group>"; };
+		DC39218B1E44C9510013CD1C /* AuthConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthConfig.swift; sourceTree = "<group>"; };
 		DC6B50A71E3BBD8E000A3703 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
 		DC6B50A91E3BC0E3000A3703 /* AuthController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
 		DCAE5E891E39BDBF008DF6BA /* HomeAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				DCAE5EB01E39CBA3008DF6BA /* URL.swift */,
-				DC6B50AB1E3BDEDF000A3703 /* AuthConfig.swift */,
+				DC39218B1E44C9510013CD1C /* AuthConfig.swift */,
 			);
 			name = constant;
 			sourceTree = "<group>";
@@ -306,7 +308,7 @@
 			files = (
 				DCAE5E8F1E39BDBF008DF6BA /* ViewController.swift in Sources */,
 				DC6B50AA1E3BC0E3000A3703 /* AuthController.swift in Sources */,
-				DC6B50AC1E3BDEDF000A3703 /* AuthConfig.swift in Sources */,
+				DC39218C1E44C9510013CD1C /* AuthConfig.swift in Sources */,
 				DC6B50A81E3BBD8E000A3703 /* HttpController.swift in Sources */,
 				DCAE5EAE1E39C977008DF6BA /* AcController.swift in Sources */,
 				DCAE5E8D1E39BDBF008DF6BA /* AppDelegate.swift in Sources */,
